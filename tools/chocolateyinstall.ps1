@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'posfordotnet.install'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.microsoft.com/download/F/F/F/FFF64E24-E3E6-45FE-924F-FFFA01E75F71/POSforDotNet-1.14.msi'
+$url        = 'https://download.microsoft.com/download/9/4/4/9444E977-DA6D-469F-8DA9-782F0C13CF30/PosForDotNet-1.14.1.msi'
 
 $packageArgs = @{
   packageName   = $packageName
