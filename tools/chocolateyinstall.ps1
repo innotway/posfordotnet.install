@@ -14,7 +14,7 @@ $packageArgs = @{
 
   softwareName  = 'Microsoft POS for .NET*'
 
-  checksum      = '48924C7CE766D3B4C640F3AC270603D70DFA978A0E016C35D2F20F2D19C8C14C'
+  checksum      = '6CECF22600A4430A1D80573AC74049E8BEFD3B32B6DDDB10B1931A2A1B654E36'
   checksumType  = 'sha256'
   
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
