@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'posfordotnet.install'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.microsoft.com/download/F/F/F/FFF64E24-E3E6-45FE-924F-FFFA01E75F71/POSforDotNet-1.14.msi'
+$url        = 'https://download.microsoft.com/download/9/4/4/9444E977-DA6D-469F-8DA9-782F0C13CF30/PosForDotNet-1.14.1.msi'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,7 +14,7 @@ $packageArgs = @{
 
   softwareName  = 'Microsoft POS for .NET*'
 
-  checksum      = '48924C7CE766D3B4C640F3AC270603D70DFA978A0E016C35D2F20F2D19C8C14C'
+  checksum      = '6CECF22600A4430A1D80573AC74049E8BEFD3B32B6DDDB10B1931A2A1B654E36'
   checksumType  = 'sha256'
   
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
